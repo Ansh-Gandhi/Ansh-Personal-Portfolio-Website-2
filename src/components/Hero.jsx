@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./styling/Hero.css";
+const words = ["problem solver", "developer", "lifelong learner", "team player", "innovator"];
 
 function Hero() {
-  const words = ["problem solver", "developer", "lifelong learner", "team player", "innovator"];
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -29,7 +29,7 @@ function Hero() {
 
     const timer = setTimeout(type, speed);
     return () => clearTimeout(timer);
-  }, [text, isDeleting, index, words]);
+  }, [text, isDeleting, index, speed]);
 
   return (
     <section id="hero" className="hero">
