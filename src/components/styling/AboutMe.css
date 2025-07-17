@@ -1,0 +1,42 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  gap: 2rem;
+  color: #BED7DC; 
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(190, 215, 220, 0.5);
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-image {
+    margin-top: 1.5rem;
+  }
+}
