@@ -6,6 +6,16 @@ import "./styling/ExperienceTimeline.css";
 
 const allExperiences = [
   {
+    year: "May 2025 - Present",
+    title: "Applied AI Lead",
+    subtitle: "UBC Agrobot Engineering Design Team",
+    description: [
+      "Lead 20 engineers developing real-time vision systems for autonomous robotics, integrating advanced deep learning models into ROS for accurate crop detection",
+      "Direct three machine learning projects in object localization, image segmentation, and reinforcement learning",
+    ],
+    type: "job",
+  },
+  {
     year: "Jan 2025 - Present",
     title: "Full Stack Software Engineer Coop",
     subtitle: "Dialpad",
