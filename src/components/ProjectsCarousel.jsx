@@ -12,18 +12,19 @@ import stockTrendImage from "../assests/images/stocks-removebg-preview.png";
 import graphImage from "../assests/images/Directed.svg.png"; 
 import concurrentServerImage from "../assests/images/server-removebg-preview.png"; 
 import epilogImage from "../assests/images/Custom Size 1.png"
+import expenseManagerImage from "../assests/images/expense-manager.png"
 
 
 const projects = [
   {
-    title: "Movie Recommender",
+    title: "Expense Split Manager App",
     description: [
-      "Developing a dynamic React front end for users to select a movie and receive personalized recommendations",
-      "Building a machine learning back end in Python using Flask to analyze movie data and generate personalized recommendations based on user input",
-      "Integrating RESTful APIs for seamless communication and real-time recommendations",
+      "Developed a full-stack expense management app using Next.js and Convex, enabling users to create groups, add shared expenses, and view real-time balances",
+      "Implemented secure authentication and OAuth with Clerk, providing seamless sign-up and login through providers like Google",
+      "Integrated Inngest to automate background tasks such as payment reminders and group summary updates, ensuring a smooth and dynamic user experience",
     ],
-    image: movieRecommenderImage,
-    github: "https://github.com/Ansh-Gandhi/Movie-Recommender-Web-App",
+    image: expenseManagerImage,
+    github: "https://github.com/Ansh-Gandhi/Expense-Managing-App",
   },
   {
     title: "Chatting Web Application",
@@ -44,6 +45,16 @@ const projects = [
     ],
     image: stockTrendImage,
     github:"https://github.com/Ansh-Gandhi/Stock-Trend-Prediction-Website"
+  },
+  {
+    title: "Movie Recommender",
+    description: [
+      "Developing a dynamic React front end for users to select a movie and receive personalized recommendations",
+      "Building a machine learning back end in Python using Flask to analyze movie data and generate personalized recommendations based on user input",
+      "Integrating RESTful APIs for seamless communication and real-time recommendations",
+    ],
+    image: movieRecommenderImage,
+    github: "https://github.com/Ansh-Gandhi/Movie-Recommender-Web-App",
   },
   {
     title: "Nom Appetit",
