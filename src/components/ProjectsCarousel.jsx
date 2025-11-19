@@ -13,6 +13,7 @@ import graphImage from "../assests/images/Directed.svg.png";
 import concurrentServerImage from "../assests/images/server-removebg-preview.png"; 
 import epilogImage from "../assests/images/Custom Size 1.png"
 import expenseManagerImage from "../assests/images/expense-manager.png"
+import rideShareImage from "../assests/images/ride-share-app.png"
 
 
 const projects = [
@@ -25,6 +26,16 @@ const projects = [
     ],
     image: expenseManagerImage,
     github: "https://github.com/Ansh-Gandhi/Expense-Managing-App",
+  },
+  {
+    title: "Ride Share Mobile App",
+    description: [
+      "Built a full-stack ride-sharing app for searching destinations, requesting rides, viewing routes, and processing payments, backed by NeonDB (Postgres) and Expo API routes for reliable ride management and real-time location updates",
+      "Designed a mobile-optimized interface using React Native (Expo), delivering smooth navigation, onboarding flows, and interactive map-based experiences through Google Cloud APIs",
+      "Integrated secure authentication with Clerk (email code verification + Google OAuth) and implemented Stripe to handle end-to-end payment processing, completing a seamless booking flow from route selection to payment confirmation",
+    ],
+    image: rideShareImage,
+    github: "https://github.com/Ansh-Gandhi/Ride-Share-App",
   },
   {
     title: "Chatting Web Application",
