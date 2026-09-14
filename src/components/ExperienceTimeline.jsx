@@ -6,19 +6,30 @@ import "./styling/ExperienceTimeline.css";
 
 const allExperiences = [
   {
-    year: "May 2025 - Present",
-    title: "Applied AI Lead",
-    subtitle: "UBC Agrobot Engineering Design Team",
+    year: "May 2026 - August 2026",
+    title: "Software Development Intern",
+    subtitle: "Amazon - AFFS ARS Team",
     description: [
-      "Lead 20 engineers developing real-time vision systems for autonomous robotics, integrating advanced deep learning models into ROS for accurate crop detection",
-      "Direct three machine learning projects in object localization, image segmentation, and reinforcement learning",
+      "Implemented a serverless Java automation system using AWS Lambda, DynamoDB, and EventBridge to replace an unscalable manual scheduling process across ∼74000 annual schedules for Amazon’s accountants",
+      "Built resilient high-volume event processing with SQS and CloudWatch, using per-message failure reporting, retry logic, and a dead-letter queue to isolate and monitor failures",
+      "Developed a React-based review UI enabling 160+ accountants to approve, reject, or edit computed schedules before activation, while maintaining auditability of all actions",
     ],
     type: "job",
   },
   {
-    year: "Jan 2025 - Present",
+    year: "May 2025 - May 2026",
+    title: "Applied AI Lead",
+    subtitle: "UBC Agrobot Engineering Design Team",
+    description: [
+      "Lead 20 engineers developing real-time vision systems for autonomous robotics, integrating advanced deep learning models into ROS for accurate crop detection",
+      "Directed three machine learning projects, applying object localization to identify crops, image segmentation to distinguish crop from weed, and reinforcement learning for autonomous navigation",
+    ],
+    type: "job",
+  },
+  {
+    year: "Jan 2025 - Jan 2026",
     title: "Full Stack Software Engineer Coop",
-    subtitle: "Dialpad",
+    subtitle: "Dialpad - CoreUX Team",
     description: [
       "Develop backend functionality in Python allowing custom logo uploads, seamless retrieval of previous media in chats, and scalable pagination to enhance user experience",
       "Collaborate with designers to develop Vue.js components by building reusable UI elements and managing state efficiently with Pinia, while ensuring responsive design across all devices to enhance the overall user experience",
